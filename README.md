@@ -40,12 +40,12 @@ Here `v` is the value of feature xxx in the new data point.
 
 2. Use the conditional probabilities in a Naive Bayes classifier. This can be done using the formula here:
 
-![alt text](https://github.com/cacheop/gaussian_naive_bayes/blob/master/p1.png?raw=true")
+![alt text](https://github.com/cacheop/gaussian_naive_bayes/blob/master/p2.png?raw=true")
 
 In this formula, the argmax is taken over all possible labels CkC_kCk​ and the product is taken over all features `C(k)` with values `v(i)`.
 
 
-NOTE: You are welcome to use some existing implementation of a Gaussian Naive Bayes classifier. But to get the best results you will still need to put some thought into what features you provide the algorithm when classifying. Though you will only be given the 4 coordinates listed above, you may find that by "engineering" features you may get better performance. For example: the raw value of the ddd coordinate may not be that useful. But d % lane_width might be helpful since it gives the relative position of a vehicle in it's lane regardless of which lane the vehicle is in.
+NOTE: The raw value of the `d` coordinate may not be that useful. But `d % lane_width` might be helpful since it gives the relative position of a vehicle in it's lane regardless of which lane the vehicle is in.
 
 
 
