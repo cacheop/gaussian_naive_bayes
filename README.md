@@ -1,4 +1,4 @@
-# Implementing Naive Bayes
+# Self driving cars: implementing Naive Bayes to predict lane changes. 
 
 In this exercise you will implement a Gaussian Naive Bayes classifier to predict the behavior of vehicles on a highway. In the image below you can see the behaviors you'll be looking for on a 3 lane highway (with lanes of 4 meter width). The dots represent the d (y axis) and s (x axis) coordinates of vehicles as they either...
 
@@ -6,7 +6,6 @@ In this exercise you will implement a Gaussian Naive Bayes classifier to predict
     2. keep lane (shown in black)
     3. or change lanes right (shown in red)
 
-Inline-style: 
 ![alt text](https://github.com/cacheop/gaussian_naive_bayes/blob/master/naive-bayes.png?raw=true")
 
 Your job is to write a classifier that can predict which of these three maneuvers a vehicle is engaged in given a single coordinate (sampled from the trajectories shown below).
