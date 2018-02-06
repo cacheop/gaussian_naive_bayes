@@ -1,4 +1,4 @@
-Implementing Naive Bayes
+#Implementing Naive Bayes
 
 In this exercise you will implement a Gaussian Naive Bayes classifier to predict the behavior of vehicles on a highway. In the image below you can see the behaviors you'll be looking for on a 3 lane highway (with lanes of 4 meter width). The dots represent the d (y axis) and s (x axis) coordinates of vehicles as they either...
 
@@ -10,10 +10,11 @@ In this exercise you will implement a Gaussian Naive Bayes classifier to predict
 
 Each coordinate contains 4 features:
 
-    sss
-    ddd
-    s˙\dot{s}s˙
-    d˙\dot{d}d˙
+    - s
+    - d
+    - dot s
+    - dot d
+
 
 You also know the lane width is 4 meters (this might be helpful in engineering additional features for your algorithm).
 Instructions
